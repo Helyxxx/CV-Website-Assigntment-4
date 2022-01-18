@@ -1,0 +1,38 @@
+body {
+  background-color: #eaac8b;
+}
+
+header {
+  background-color: #355070;
+}
+
+h1 {
+  color: #e56b6f;
+}
+
+p {
+  background-color: #355070;
+  color: #e56b6f;
+}
+
+a {
+  color: #e56b6f;
+  font-size: x-large;
+}
+
+a:visted {
+  color: green;
+}
+
+a:hover {
+  color: orange;
+}
+
+a:active {
+  color: yellow;
+}
+
+#dino {
+  background-color: white;
+  width: 575px;
+}
