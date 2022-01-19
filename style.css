@@ -1,23 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Arsenal&family=Mukta+Vaani:wght@300&family=Roboto+Mono:ital,wght@0,700;1,400&display=swap");
+
 body {
   background-color: #eaac8b;
 }
 
 header {
   background-color: #355070;
+  border: #6d597a solid 3px;
 }
 
-h1 {
+h1,
+h2 {
   color: #e56b6f;
+  font-family: "Roboto Mono", monospace;
 }
 
-p {
+h3 {
+  color: #6d597a;
+  background-color: #eaac8b;
+  font-family: "Mukta Vaani", sans-serif;
+}
+
+#projects-link,
+#languages-link,
+#skills-link,
+#education-link {
+  font-family: "Arsenal", sans-serif;
+}
+
+p,
+#human-body,
+#technical-body,
+#hard-body,
+#soft-body,
+#education-body,
+#contact-body {
   background-color: #355070;
   color: #e56b6f;
+  font-family: "Mukta Vaani", sans-serif;
+  border: #6d597a solid 3px;
 }
 
 a {
   color: #e56b6f;
   font-size: x-large;
+  text-decoration: none;
 }
 
 a:visted {
@@ -25,14 +52,18 @@ a:visted {
 }
 
 a:hover {
-  color: orange;
+  color: rgba(255, 157, 0, 0.808);
 }
 
 a:active {
-  color: yellow;
+  color: rgb(175, 157, 0);
 }
 
-#dino {
-  background-color: white;
-  width: 575px;
+footer {
+  background-color: #355070;
+  border: #6d597a solid 3px;
+}
+
+#social i {
+  font-size: 1em;
 }
