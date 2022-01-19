@@ -4,42 +4,42 @@
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <!--Icons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
+    <!--CSS Sytle Sheet-->
     <link rel="stylesheet" href="style.css">
-            
     <title>CV Website</title>
 </head>
 <body>
     <main class = "container">
-        <header class = "row align-items-center">
-        <h1 class = "col-12 col-lg-5 text-center text-lg-start ">Tanshif Muslehuddin</h1>    
-        <div class = "col-3 col-lg-1 text center"><a href = "#projects">Projets</a></div>   
-        <div class = "col-3 col-lg-2 text-center"><a href = "#">Languages</a></div>
-        <div class = "col-3 col-lg-2 text-center"><a href = "#">Skills</a></div>
-        <div class = "col-3 col-lg-2 text-center"><a href = "#education">Education</a></div>    
+        <header class = "row align-items-center sticky-top">
+            <h1 class = "col-12 col-lg-5 text-center text-lg-start ">Tanshif Muslehuddin</h1>    
+            <div id = "projects-link" class = "col-3 col-lg-1 text center"><a href = "#projects">Projets</a></div>   
+            <div id = "languages-link" class = "col-3 col-lg-2 text-center ps-lg-5"><a href = "#languages">Languages</a></div>
+            <div id = "skills-link" class = "col-3 col-lg-2 text-center ps-lg-4"><a href = "#skills">Skills</a></div>
+            <div id = "education-link" class = "col-3 col-lg-2 text-center"><a href = "#education">Education</a></div>    
     </header>
-
+    <!--Image of Capybara-->
     <section class = "row">
-        <!--Image of Capybara-->
         <div class = "col-12 col-lg-6 text-center">
-            <img src = "Images/Capybara.jpg" alt = "Cabybara eating grass" >
+            <img src = "Images/Capybara.jpg" alt = "Cabybara eating grass" class = "pt-1" >
         </div>      
         <!--Introduction Starts-->  
         <div class = "col-lg-6">
             <div class = "row align-item-bottom">
-                <h1 class = "text-center">Introduction</h1>
-                <p class = "col-12">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis autem reiciendis veritatis facere debitis hic! Iure perspiciatis laborum alias ex debitis similique ad dolore ducimus fugiat nulla, vero, nihil ab? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ex ipsum officia id, cum illo ipsa architecto reprehenderit itaque commodi iusto ratione quam repellendus excepturi voluptatum illum? Praesentium, laudantium illo?</p>
+                <h2 class = "text-center m-2">Introduction</h2>
+                <p class = "col-12 ">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Perspiciatis autem reiciendis veritatis facere debitis hic! Iure perspiciatis laborum alias ex debitis similique ad dolore ducimus fugiat nulla, vero, nihil ab? Lorem ipsum dolor sit amet, consectetur adipisicing elit. Non ex ipsum officia id, cum illo ipsa architecto reprehenderit itaque commodi iusto ratione quam repellendus excepturi voluptatum illum? Praesentium, laudantium illo?</p>
             </div>
         </div> 
         <!--Introduction Ends--> 
     </section>
+    <!--Experience Starts-->
     <section class = "row">
-        <!--Education Starts-->
-        <div id = "education">
-            <h1  class = "text-center">Education</h1>
-            <p class = "col-12">
+        <div>
+            <h2  class = "text-center m-2">Experience</h2>
+            <p class = "col-12 p-2">
                 Sandwich Maker, McDonalds (2019 - PRESENT)
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
                 <br>
@@ -52,20 +52,148 @@
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
             </p>
         </div>
-        <!--Education Ends-->
+        <!--Experience Ends-->
     </section>
-    <section class = "row">
-        <!--Projects Starts-->
-        <div id = "projects" >
-            <h1  class = "col-12 text-center">Projects</h1>
-            <img id = "dino" src="Images/Dino.gif" alt="Walking Dino" class = "text-center">
-
+    <!--Projects Starts-->
+    <section>
+        <h2  class = "text-center m-2">Projects</h2>
+        <div class = "container-lg">
+            <div class = "row align-items-center justify-content-center">
+                <div class = "col-12 col-lg-6 my-2">
+                    <div class = "card border-0">
+                        <img src = "Images/tetris.jpg" alt = "Tetris" class = "card-img-top">
+                        <div class =" card-body text-center p-0 m-0">
+                            <h3 class = "card-title p-0 m-0">Tetris</h3>
+                            <p class = "lead card-subtitle p-0 m-0">Software: HTML, CSS, JavaScript</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-12 col-lg-6 my-2">
+                    <div class = "card border-0">
+                        <img src = "Images/Trex.jpg" alt = "T-Rex" class = "card-img-top">
+                        <div class =" card-body text-center p-0 m-0">
+                            <h3 class = "card-title p-0 m-0">T-Rex</h3>
+                            <p class = "lead card-subtitle p-0 m-0">Software: HTML, CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class = "row align-items-center justify-content-center">
+                <div class = "col-12 col-lg-6 my-2">
+                    <div class = "card border-0">
+                        <img src = "Images/SnakesAndLadder.jpg" alt = "Snakes and Ladder" class = "card-img-top">
+                        <div class =" card-body text-center p-0 m-0">
+                            <h3 class = "card-title p-0 m-0">Snakes and Ladder</h3>
+                            <p class = "lead card-subtitle p-0 m-0">Software: Java</p>
+                        </div>
+                    </div>
+                </div>
+                <div class = "col-12 col-lg-6 my-2">
+                    <div class = "card border-0">
+                        <img src = "Images/RubiksCube.jpg" alt = "Rubik's Cube" class = "card-img-top">
+                        <div class =" card-body text-center p-0 m-0 ">
+                            <h3 class = "card-title p-0 m-0">Rubik's Cube</h3>
+                            <p class = "lead card-subtitle p-0 m-0">Software: HTML, CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
+        <!--Projects Ends-->
     </section>
-   
-
+    <!--Languages Starts-->
+    <section class = "row">
+        <h2 id="languages" class = "text-center m-2">Languages</h2>
+        <div  class = "col-12 col-lg-6 text-center text-lg-start"> 
+            <h3 class = "col-lg-6 text-center text-lg-start m-2">Human</h3>
+            <div id = "human-body" class = "p-2">
+                English
+                <br>
+                French
+                <br>
+                Bengali    
+            </div>         
+        </div>
+        <div class = "col-12 col-lg-6 text-center text-lg-start">
+            <h3 class = "col-lg-6 text-center text-lg-start m-2">Technical</h3>
+            <div id = "technical-body" class = "p-2">
+                HTML
+                <br>
+                CSS
+                <br>
+                JavaScript
+                <br>
+                Java
+                <br>
+                Python
+                <br>
+                MySQL
+            </div>             
+        </div>
+        <!--Languages Ends-->
+    </section>
+    <!--Languages Starts-->
+    <section class = "row">
+        <h2 id="skills" class = "text-center m-2">Skills</h2>
+        <div class = "col-12 col-lg-6 text-center text-lg-start">            
+            <h3 class = "col-lg-6 text-center text-lg-start m-2">Hard</h3>   
+            <div id = "hard-body" class = "p-2">
+                Data Structure
+                <br>
+                Wire Framing/ Mock Ups
+                <br>
+                Photoshopping
+                <br>
+                Coding
+            </div>         
+        </div>
+        <div class = "col-12 col-lg-6 text-center text-lg-start">
+            <h3 class = "col-lg-6 text-center text-lg-start m-2">Soft</h3>       
+            <div id = "soft-body" class = "p-2">
+                Communication
+                <br>
+                Problem Solving
+                <br>
+                Dependability
+                <br>
+                Good Attitude  
+            </div>    
+        </div>
+        <!--Languages Ends-->
+    </section>
+    <!--Education/Contact Me Starts-->
+    <section class = "row">
+        <div id = "education" class= "col-12 col-lg-6 text-center text-lg-start">
+            <h2  class = "text-center m-2">Education</h2>
+            <div id = "education-body" class = "p-2">
+                Full Stack Development (2021 - 2022)
+                John Abbott College, Montreal, QC
+                <br>
+                Human Environment (2012 - 2016)
+                Concordia University, Montreal, QC
+                <br>
+                Architectural Technology (2008 - 2012)
+                Vanier College, Montreal, QC
+            </div>
+        </div>
+            <div class= "col-12 col-lg-6 text-center text-lg-start">            
+                <h2  class = "text-center m-2">Contact Me</h2>
+                <div id = "contact-body" class = "p-2">
+                    4593 Rue Saint-Denis
+                    <br>
+                    Montréal, QC, Canada H2J 2L1
+                    <br>               
+                    Cell: (514) 904-0079                
+                </div>
+            </div>
+        <!--Education/Contact Me Ends-->
+    </section>
+    <footer id = "social" class = "text-center mt-4" >
+        <a href = "https://www.facebook.com/" target = "_blank"><i class="bi bi-facebook m-2 px-lg-3"></i></a>
+        <a href = "https://ca.linkedin.com/" target = "_blank"><i class="bi bi-linkedin m-2 px-lg-3"></i></a>
+        <a href = "https://outlook.live.com/owa/" target = "_blank"><i class="bi bi-envelope m-2 px-lg-3"></i></a>
+        <a href = "https://twitter.com/?lang=en" target = "_blank"><i class="bi bi-twitter m-2 px-lg-3"></i></a>
+    </footer>
     </main>
-    
-
 </body>
 </html>
